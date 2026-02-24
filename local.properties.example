@@ -1,0 +1,17 @@
+# Copy this file to local.properties and fill in your keys.
+# local.properties is gitignored and never committed.
+
+# SDK path (Android Studio sets this automatically)
+sdk.dir=/path/to/your/Android/sdk
+
+# --- API keys (required for the app to work) ---
+# Google Maps: create keys at https://console.cloud.google.com/apis/credentials
+GOOGLE_MAPS_KEY_DEBUG=
+GOOGLE_MAPS_KEY_RELEASE=
+
+# Google OAuth Web client ID (for Sign-In). From Firebase Console > Project settings > Your apps > Web client ID
+GOOGLE_OAUTH_CLIENT_ID=
+
+# AdMob: from https://admob.google.com/ > Apps > App settings
+ADMOB_APP_ID=
+ADMOB_AD_UNIT_ID=

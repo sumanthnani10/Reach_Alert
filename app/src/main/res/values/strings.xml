@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Reach Alert</string>
+    <!-- ad_unit_id injected from local.properties at build time -->
+    <string name="title_activity_maps_primary">Maps Activity Primary</string>
+    <string name="search">Search</string>
+    <string name="nothing"> </string>
+    <string name="location_button">location button</string>
+    <string name="target_yet_to_reach">Status : Yet To Reach</string>
+    <string name="target_reached">Status :Reached</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+
+    <string name="request_updates">Request updates</string>
+    <string name="remove_updates">Remove updates</string>
+    <string name="unknown_location">Unknown location</string>
+
+    <string name="batched_location_updates">Batched location updates</string>
+
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+
+    <string name="default_channel">Default channel</string>
+    <string name="title_activity_maps_secondary">MapSecondary</string>
+    <string name="title_activity_maps_final">MapsFinal</string>
+    <!-- google_id (AdMob app id) injected from local.properties at build time -->
+    <string name="share">Share</string>
+    <string name="gps_not_found_title">Location Disabled</string>
+    <string name="gps_not_found_message">Enable Location.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okay">Okay!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="loading">Loading…</string>
+    <string name="empty">" "</string>
+
+    <!-- client_id (Google OAuth) injected from local.properties at build time -->
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/dark">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/fsi_logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reached"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        android:singleLine="false"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/quantum_white_100"
+        android:layout_marginBottom="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        android:singleLine="false"
+        android:maxLines="3"
+        android:gravity="center"
+        android:id="@+id/location_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/quantum_white_100"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:textColor="#FF0000"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/stop"
+        />
+
+</LinearLayout>

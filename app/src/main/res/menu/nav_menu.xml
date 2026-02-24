@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share">
+    </item>
+
+    <item
+        android:id="@+id/theme"
+        android:icon="@drawable/ic_dark_theme_icon"
+        android:title="Night Mode"
+        app:actionViewClass="android.widget.Switch"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/ic_sign_out"
+        android:title="@string/sign_out">
+    </item>
+
+    <item android:title="Searched Locations">
+        <menu>
+            <group
+                android:id="@+id/searched_group">
+                <item
+                    android:id="@+id/searched_one"
+                    android:icon="@drawable/places_ic_search"
+                    android:title="Searched Location"/>
+                <item
+                    android:id="@+id/searched_two"
+                    android:icon="@drawable/places_ic_search"
+                    android:title="Searched Location"/>
+                <item
+                    android:id="@+id/searched_three"
+                    android:icon="@drawable/places_ic_search"
+                    android:title="Searched Location"/>
+                <item
+                    android:id="@+id/clear_search"
+                    android:icon="@drawable/ic_clear_all"
+                    android:title="Clear Recent Searches"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Recent Locations">
+        <menu>
+            <group
+                android:id="@+id/recent_group">
+                <item
+                    android:id="@+id/recent_one"
+                    android:icon="@mipmap/ic_launcher_address"
+                    android:title="Recent Location"/>
+                <item
+                    android:id="@+id/recent_two"
+                    android:icon="@mipmap/ic_launcher_address"
+                    android:title="Recent Location"/>
+                <item
+                    android:id="@+id/recent_three"
+                    android:icon="@mipmap/ic_launcher_address"
+                    android:title="Recent Location"/>
+                <item
+                    android:id="@+id/clear_reached"
+                    android:icon="@drawable/ic_clear_all"
+                    android:title="Clear Recent Locations"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- google_maps_key is injected from local.properties (GOOGLE_MAPS_KEY_DEBUG) at build time -->
+</resources>

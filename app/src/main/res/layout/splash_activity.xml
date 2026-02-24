@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/quantum_white_100">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_small_icon_black"
+        android:id="@+id/splash_img_alpha"
+        android:contentDescription="@string/empty" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reach_alert_shadow"
+        android:visibility="invisible"
+        android:id="@+id/splash_shadow"
+        android:contentDescription="@string/empty" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_small_icon_white"
+        android:id="@+id/splash_img"
+        android:contentDescription="@string/empty" />
+
+    <ImageView
+        android:id="@+id/confegure_logo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:alpha="0.5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/confegure"
+        android:contentDescription="@string/empty" />
+
+</RelativeLayout>
